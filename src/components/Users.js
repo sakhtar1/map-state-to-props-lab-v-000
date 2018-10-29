@@ -7,7 +7,8 @@ class Users extends Component {
     return (
       <div>
         <ul>
-          Users!
+          {users}
+          {userCount}
         </ul>
       </div>
     )
