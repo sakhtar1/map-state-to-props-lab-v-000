@@ -14,5 +14,6 @@ class Users extends Component {
 }
 
 //add mapStateToProps here
+mapStateToProps(state) => { return {users: state.users}
 
 export default Users
